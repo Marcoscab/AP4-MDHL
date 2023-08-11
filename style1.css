@@ -1,0 +1,38 @@
+.contenedorImagen{
+    position: relative;
+}
+
+.imgbanner{ 
+    width: 100%;
+    height:auto;
+}
+
+.top-left{
+    position: absolute;
+    top: 5px;
+    left: 16px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 30px;
+    color: red;
+}
+
+.bottom-center{
+    position: absolute;
+    width: 100%;
+    bottom: 5px;
+    background-color: black;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    text-align: center;
+    color: white;
+}
+
+.bottom-rigth{
+    position: absolute;
+    bottom: -4%;
+    right: 10%;
+
+}
+
+
+
+
