@@ -33,6 +33,24 @@
 
 }
 
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    left: 0;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+  }
+
+  .sidenav a{
+    display: block;
+    margin-top: 30%;
+  }
+
+  .principal {
+    display: inline;
+    position: absolute;
+  }
+
 
 
 
