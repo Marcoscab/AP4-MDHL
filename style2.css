@@ -1,0 +1,139 @@
+/*NORMALIZADOR*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+/*Encabezado*/
+.Encabezado {
+    height: 50vh;
+    width: 100%;
+    position: relative;
+    background-image: url(./img/design1_image1.jpg);
+    object-fit: cover;
+    background-position: center;
+    margin-top: 80px;
+}
+
+.top-left {
+    position: absolute;
+    padding: 5px;
+    top: 5px;
+    left: 16px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 25px;
+    color: red;
+    background-color: rgba(100, 100, 100, 0.3);
+    border-style: inset;
+    border-radius: 10px;
+    margin-top: -70px;
+}
+
+/*
+  .img-banner {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    background-position: bottom;
+  }*/
+
+.bottom-center {
+    position: absolute;
+    padding: 10px;
+    width: 100%;
+    bottom: -10%;
+    background-color: black;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    text-align: center;
+    color: white;
+}
+
+
+.bottom-rigth {
+    display: none;
+    position: absolute;
+    bottom: -20%;
+    right: 10%;
+    width: 150px;
+    height: 150px;
+}
+
+/*BARRA DE NEVAGACION VERTICAL*/
+.sidenav {
+    position: relative;
+    height: 100%;
+    width: 160px;
+    left: 0;
+    bottom: -5px;
+    overflow-x: hidden;
+    margin-top: 30px;
+    display: inline-block;
+
+}
+
+.sidenav a {
+    display: none;
+    padding: 10%;
+}
+
+.sidenav img{
+    position: sticky;
+    top: 50px;
+    width: 150px;
+    height: 150px;
+}
+
+/*CONTENEDOR PRINCIPAL*/
+.contenedor-principal {
+    display: inline-block;
+    position: absolute;
+    /* border: 5px solid red;*/
+    margin-top: 65px;
+    margin-left: 50px;
+}
+
+.articulos {
+    margin-bottom: 10px;
+}
+
+.parrafos {
+    padding-left: 30px;
+}
+
+.top-navbar {
+    position: absolute;
+    right: 10px;
+    top: -20px;
+}
+
+
+.btn1 {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 5px 10px;
+    background-color: green;
+    margin-right: 5px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    width: 100px;
+    box-shadow: 3px 3px 0.5px 1px rgba(0, 0, 0, 0.6);
+
+}
+
+.btn2 {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 5px 10px;
+   background-color: mediumblue;
+    margin-right: 5px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    width: 100px;
+    box-shadow: 3px 3px 1px 1px rgba(0, 0, 0, 0.6);
+}

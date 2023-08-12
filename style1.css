@@ -1,85 +1,126 @@
-/*Normalizador*/
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+/*NORMALIZADOR*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 /*Encabezado*/
-.Encabezado{
-    position: relative;
+.Encabezado {
+  height: 50vh;
+  width: 100%;
+  position: relative;
+  background-image: url(./img/design1_image1.jpg);
+  object-fit: cover;
+  background-position: center;
 }
 
-.top-left{
-    position: absolute;
-    top: 5px;
-    left: 16px;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
-    font-size: 50px;
-    color:red;
-    background-color: black;
+.top-left {
+  position: absolute;
+  padding: 5px;
+  top: 5px;
+  left: 16px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-size: 25px;
+  color: red;
+  background-color: rgba(100, 100, 100, 0.3);
+  border-style: inset;
+  border-radius: 10px;
+}
+/*
+.img-banner {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  background-position: bottom;
+}*/
+
+.bottom-center {
+  position: absolute;
+  padding: 10px;
+  width: 100%;
+  bottom: -10%;
+  background-color: black;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  text-align: center;
+  color: white;
 }
 
-.img-banner{
-    height: auto;
-    width: 100%;
-    
-}
 
-.bottom-center{
-    position: absolute;
-    padding: 10px;
-    width: 100%;
-    bottom: 5px;
-    background-color: black;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
-    text-align: center;
-    color: white;
-}
-
-
-.bottom-rigth{
-    position: absolute;
-    bottom: -4%;
-    right: 10%;
-    width: 150px;
-    height: 150px;
+.bottom-rigth {
+  position: absolute;
+  bottom: -20%;
+  right: 10%;
+  width: 150px;
+  height: 150px;
 }
 
 /*BARRA DE NEVAGACION VERTICAL*/
 .sidenav {
-    height: 100%; 
-    width: 160px; 
-    left: 0;
-    bottom: 0;
-    overflow-x: hidden; 
-    margin-top: 30px;
-    display: inline-block; 
-   /* border: 5px solid red;*/
-  }
+  height: 100%;
+  width: 160px;
+  left: 0;
+  bottom: -5px;
+  overflow-x: hidden;
+  margin-top: 30px;
+  display: inline-block;
+  /* border: 5px solid red;*/
+}
+.sidenav a {
+  display: block;
+  padding: 10%;
+}
 
-  .sidenav a{
-    display: block;
-    padding: 10%;
-  }
+/*CONTENEDOR PRINCIPAL*/
+.contenedor-principal {
+  display: inline-block;
+  position: absolute;
+  /* border: 5px solid red;*/
+  margin-top: 65px;
+  margin-left: 50px;
+}
 
-  /*CONTENEDOR PRINCIPAL*/
-  .contenedor-principal{
-    display: inline-block;
-    position: absolute;
-   /* border: 5px solid red;*/
-    margin-top: 35px;
-    margin-left: 50px;
-  }
+.articulos {
+  margin-bottom: 10px;
+}
 
-  .articulos{
-    margin-bottom: 10px;
-  }
+.parrafos {
+  padding-left: 30px;
+}
 
-  .parrafos{
-    padding-left: 30px;
-  }
+.top-navbar{
+  display: none;
+  position: absolute;
+  right: 0;
+  top: -10px;
+}
 
+.btn1{
+  display: inline-block;
+  border: 1px solid black;
+  padding: 5px 10px;
+  background-color: yellowgreen;
+  margin-right: 5px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  width: 100px;
+  box-shadow: 3px 3px 0.5px 1px rgba(0, 0, 0, 0.3);
+  
+}
+
+.btn2{
+  display: inline-block;
+  border: 1px solid black;
+  padding: 5px 10px;
+  background-color: mediumblue;
+  margin-right: 5px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  width: 100px;
+  box-shadow: 3px 3px 0.5px 1px rgba(0, 0, 0, 0.3);
+}
 
 
