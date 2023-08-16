@@ -11,7 +11,7 @@
     height: 50vh;
     width: 100%;
     position: relative;
-    background-image: url(./img/design1_image1.jpg);
+    background-image: url(../img/design1_image1.jpg);
     object-fit: cover;
     background-position: center;
     margin-top: 80px;
