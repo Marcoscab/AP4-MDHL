@@ -26,11 +26,11 @@ h3 {
     margin-top: 10vh;
 
 }
-/*
+
 .bordes {
     border: 1px solid red;
 }
-*/
+
 .titulo {
     width: 70vw;
     margin-bottom: 2vh;
@@ -78,6 +78,7 @@ h3 {
     font-size: 1.1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    height: 500px;
  }
 
  .tt{
@@ -129,3 +130,55 @@ h3 {
     background-color: red;
 
 }
+
+
+
+.container-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-top: 2vh;
+    font-size: 1.1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+ }
+
+ .centrado{
+    align-self: center;
+    margin-bottom: 5vh;
+ }
+
+header h3 {
+    text-align: left;
+    margin-left: 10vw;
+    margin-bottom: 3vh;
+}
+
+.subrayado{
+    text-decoration: underline;
+    font-style: italic;
+}
+
+/*FORMATO TABLA*/
+
+table {  color: #333; font-family: Helvetica, Arial, sans-serif; width: 640px; border-collapse: collapse;}
+
+td, th { border: 1px solid transparent; height: 30px; }
+
+th { background: #D3D3D3; font-weight: bold; }
+
+td { background: #FAFAFA; text-align: center; }
+
+tr:nth-child(even) td { background: #F1F1F1; }  
+
+tr:nth-child(odd) td { background: #FEFEFE; } 
+
+tr td:hover { background: #666; color: #FFF; }
+
+
+.izquierda{
+    align-self: flex-start;
+    margin-top: 8vh;
+    margin-left: 30vw;
+    margin-right: 30vw;
+ }
