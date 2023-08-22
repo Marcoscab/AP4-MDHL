@@ -12,85 +12,250 @@
 
     <header>
         <h1>REGISTRATION FORM</h1>
+
+
     </header>
 
 
     <form action="show_data.html" method="get">
-        <div class="contenedor-1">
-            <div class="caja-1">
-                <label for="first_name">First Name</label>
-                <input type="text" name="first_name" id="first_name">
+
+        <!-- CAMPOS PERSONALES -->
+        <fieldset class="contenedor">
+            <div class="contenedor-1">
+                <div class="caja-1">
+                    <label for="first_name">First Name</label>
+                    <input type="text" name="first_name" id="first_name">
+                </div>
+
+                <div class="caja-1">
+                    <label for="last_name">Last Name</label>
+                    <input type="text" name="last_name" id="last_name">
+                </div>
             </div>
 
-            <div class="caja-1">
-                <label for="last_name">Last Name</label>
-                <input type="text" name="last_name" id="last_name">
+            <div class="contenedor-2">
+                <div class="caja-1">
+                    <label for="address">Street Address</label>
+                    <input type="text" name="address" id="address">
+                </div>
             </div>
+
+            <div class="contenedor-1">
+                <div class="caja-1">
+                    <label for="city">City</label>
+                    <input type="text" name="city" id="city">
+                </div>
+                <div class="caja-2">
+                    <label for="zip">Zip Code </label>
+                    <input type="text" name="zip" id="zip">
+                </div>
+            </div>
+
+
+            <div class="contenedor-1">
+                <div class="caja-1">
+                    <label for="birth_date">Birth Date (mm/dd/yyyy)</label>
+                    <input type="text" name="birth_date" id="birth_date">
+                </div>
+                <div class="caja-3">
+                    <span>Gender:</span>
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" value="male" id="male" checked>
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" value="feale" id="female">
+                </div>
+
+            </div>
+
+            <div class="contenedor-2">
+                <div class="caja-1">
+                    <span><strong>Grade:</strong> </span>
+
+                    <input type="checkbox" name="preschool" id="preschool">
+                    <label for="preschool">Pre-School</label>
+
+                    <input type="checkbox" name="1st" id="1st">
+                    <label for="1st">1st</label>
+
+                    <input type="checkbox" name="2nd" id="2nd">
+                    <label for="2nd">2nd</label>
+
+                    <input type="checkbox" name="3rd" id="3rd">
+                    <label for="3rd">3rd</label>
+
+                    <input type="checkbox" name="4th" id="4th">
+                    <label for="4th">4th</label>
+
+                    <input type="checkbox" name="5th" id="5th">
+                    <label for="5th">5th</label>
+
+                </div>
+            </div>
+        </fieldset>
+
+        <!-- ESCUELA CERCANIA -->
+        <fieldset class="contenedor">
+            <h2>Wich elementary School do you leave near</h2>
+            <h3>Closest School:</h3>
+            <div class="contenedor-4">
+                <div class="caja-4 ">
+                    <div class="sub-caja">
+                        <input type="radio" name="school" id="aj-katzenmaier">
+                        <label for="aj-katzenmaier">AJ-Katzenmaier</label>
+                    </div>
+
+                    <div class="sub-caja">
+                        <input type="radio" name="school" id="greenbay">
+                        <label for="greenbay">Greenbay</label>
+                    </div>
+
+                    <div class="sub-caja">
+                        <input type="radio" name="school" id="howard">
+                        <label for="howard">Howard A Yeager</label>
+                    </div>
+                </div>
+
+                <div class="caja-4 ">
+                    <div class="sub-caja">
+                        <input type="radio" name="school" id="marjorie">
+                        <label for="marjorie">Marjorie P Hart</label>
+                    </div>
+
+                    <div class="sub-caja">
+                        <input type="radio" name="school" id="north">
+                        <label for="north">North Elementary</label>
+                    </div>
+
+                    <div class="sub-caja">
+                        <input type="radio" name="school" id="south">
+                        <label for="south">South Elementary</label>
+                    </div>
+                </div>
+            </div>
+
+        </fieldset>
+
+        <!-- POSICION DE JUEGO -->
+        <fieldset class="contenedor">
+            <h2>What position(s) do you normally play? (Check all that apply)</h2>
+            <div class="contenedor-4">
+                <div class="caja-4 ">
+                    <div class="sub-caja">
+                        <input type="checkbox" name="foward" id="foward">
+                        <label for="foward">Foward</label>
+                    </div>
+
+                    <div class="sub-caja">
+                        <input type="checkbox" name="defense" id="defense">
+                        <label for="defense">Defense</label>
+                    </div>
+                </div>
+
+                <div class="caja-4 ">
+                    <div class="sub-caja">
+                        <input type="checkbox" name="midfield" id="midfield">
+                        <label for="midfield">Midfield</label>
+                    </div>
+
+                    <div class="sub-caja">
+                        <input type="checkbox" name="goalkeeper" id="goalkeeper">
+                        <label for="goalkeeper">Goalkeeper</label>
+                    </div>
+
+                </div>
+            </div>
+
+        </fieldset>
+
+        <!-- UNIFORM SIZE-->
+        <fieldset class="contenedor">
+            <h2>Uniform Size</h2>
+            <div class="contenedor-4">
+                <div class="caja-4 ">
+                    <div class="sub-caja">
+                        <input type="radio" name="uniform" id="youth-small">
+                        <label for="youth-small">Youth small</label>
+                    </div>
+
+                    <div class="sub-caja">
+                        <input type="radio" name="uniform" id="youth-medium">
+                        <label for="youth-medium">Youth medium</label>
+                    </div>
+
+                    <div class="sub-caja">
+                        <input type="radio" name="uniform" id="youth-large">
+                        <label for="youth-large">Youth Large</label>
+                    </div>
+                    <div class="sub-caja">
+                        <input type="radio" name="uniform" id="small">
+                        <label for="small">Small</label>
+                    </div>
+                </div>
+
+                <div class="caja-4 ">
+                    <div class="sub-caja">
+                        <input type="radio" name="uniform" id="medium">
+                        <label for="medium">Medium</label>
+                    </div>
+
+                    <div class="sub-caja">
+                        <input type="radio" name="uniform" id="large">
+                        <label for="large">Large</label>
+                    </div>
+
+                    <div class="sub-caja">
+                        <input type="radio" name="uniform" id="extra-large">
+                        <label for="extra-large">Extra-large</label>
+                    </div>
+                </div>
+            </div>
+
+        </fieldset>
+
+        <!-- PERMISSION-->
+        <fieldset class="contenedor">
+            <h2>Permission to Play</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam beatae harum odit sequi quos facilis
+                voluptatibus. Expedita recusandae iste quas enim, placeat omnis est sapiente, sequi dolorem facilis,
+                culpa quam?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi obcaecati ad libero quae, debitis,
+                eaque hic esse excepturi aperiam aut, adipisci placeat nesciunt corporis voluptates iste necessitatibus
+                provident amet eos.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat itaque ullam fuga a corporis
+                architecto eum asperiores nihil dolorem praesentium minima, ex soluta aut, ducimus voluptatem incidunt
+                dolorum expedita inventore.</p>
+
+            <div class="contenedor-5">
+                <div class="caja-2">
+                    <label for="signature">Parent/Guardian Signature</label>
+                    <div class="sub-caja-1">
+                        <input type="text" name="signature" id="signature">
+                    </div>
+                </div>
+                <div class="caja-2">
+                    <label for="date">Date</label>
+                    <input type="text" name="date" id="date">
+                </div>
+
+            </div>
+
+        </fieldset>
+
+        <div class="contenedor-6">
+            <input type="submit" value="Submit">
         </div>
-
-        <div class="contenedor-2">
-            <div class="caja-1">
-                <label for="address">Street Address</label>
-                <input type="text" name="address" id="address">
-            </div>
-        </div>
-
-        <div class="contenedor-1">
-            <div class="caja-1">
-                <label for="city">City</label>
-                <input type="text" name="city" id="city">
-            </div>
-            <div class="caja-2">
-                <label for="zip">Zip Code </label>
-                <input type="text" name="zip" id="zip">
-            </div>
-        </div>
-
-
-        <div class="contenedor-1">
-            <div class="caja-1">
-                <label for="birth_date">Birth Date (mm/dd/yyyy)</label>
-                <input type="text" name="birth_date" id="birth_date">
-            </div>
-            <div class="caja-3">
-                <span>Gender:</span>
-                <label for="male">Male</label>
-                <input type="radio" name="gender" value="male" id="male" checked>
-                <label for="female">Female</label>
-                <input type="radio" name="gender" value="feale" id="female">
-            </div>
-
-        </div>
-
-        <div class="contenedor-2">
-            <div class="caja-1">
-                <span><strong>Grade:</strong> </span>
-
-                <input type="checkbox" name="preschool" id="preschool">
-                <label for="preschool">Pre-School</label>
-
-                <input type="checkbox" name="1st" id="1st">
-                <label for="1st">1st</label>
-
-                <input type="checkbox" name="2nd" id="2nd">
-                <label for="2nd">2nd</label>
-
-                <input type="checkbox" name="3rd" id="3rd">
-                <label for="3rd">3rd</label>
-
-                <input type="checkbox" name="4th" id="4th">
-                <label for="4th">4th</label>
-
-                <input type="checkbox" name="5th" id="5th">
-                <label for="5th">5th</label>
-
-            </div>
-        </div>
-
-
-        <input type="submit" value="Submit">
     </form>
 
+    <div class="contenedor">
+        <nav class="top-navbar">
+            <a href="./index.html" class="btn2">Home</a>
+            <a href="./about.html" class="btn2">About</a>
+            <a href="./rules.html" class="btn2">Rules</a>
+            <a href="/game_info.html" class="btn2">Info</a>
+            <a href="./contact.html" class="btn2">Contacto</a>
+            <a href="#" class="btn1">Registro</a>
+        </nav>
+    </div>
 
 </body>
 
